@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b078f600fdd73a4db10d4281052b767, type: 3}
+  m_Name: StorageService
+  m_EditorClassIdentifier: 
+  <SFXSettings>k__BackingField: {fileID: 11400000, guid: 14a84ba312d0fd34693dbd402783acfa, type: 2}
+  <GameplaySettings>k__BackingField: {fileID: 11400000, guid: 761fce8bc1a75f943bf32922340f184b, type: 2}
+  <LevelSettings>k__BackingField: {fileID: 11400000, guid: 0c5a54c6109b2114b9e7c1d632c39a55, type: 2}
+  <PlayerSettings>k__BackingField: {fileID: 11400000, guid: 51985e9a812c0bd45a338bcb7ccf94bb, type: 2}
+  <InputSettings>k__BackingField: {fileID: 11400000, guid: f1c4291018d3a3545bb84ce2c7f7f0f8, type: 2}

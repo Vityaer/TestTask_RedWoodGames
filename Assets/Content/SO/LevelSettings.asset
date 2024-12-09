@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb991e6ae1304a445ae2b72046e07e95, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 1428165825033559630, guid: ffdfb8617715fad4190016fbf40e42ab, type: 3}
+    - {fileID: 4149477683170935358, guid: 48f77bc83b845e247b6d9ef0a89edb2a, type: 3}
+    - {fileID: 781909326893483459, guid: 11eb7f1aeb171c84fa1c28eeab86ece2, type: 3}
+    - {fileID: 817335530573289367, guid: d0d41be40ebef3343b43dfb9be4a620c, type: 3}
+    - {fileID: 3494954242694118887, guid: b01786056feede54a943c5de8c5e45a8, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <EnemyContainers>k__BackingField
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Models.Games.Enemies.EnemyLevelContainer,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 1|Models.Games.Enemies.EnemyLevelContainer, Assembly-CSharp
+    - Name: <Prefab>k__BackingField
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|Models.Games.Enemies.EnemyLevelContainer, Assembly-CSharp
+    - Name: <Prefab>k__BackingField
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Models.Games.Enemies.EnemyLevelContainer, Assembly-CSharp
+    - Name: <Prefab>k__BackingField
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Models.Games.Enemies.EnemyLevelContainer, Assembly-CSharp
+    - Name: <Prefab>k__BackingField
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Models.Games.Enemies.EnemyLevelContainer, Assembly-CSharp
+    - Name: <Prefab>k__BackingField
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _startAmmo: 100
+  _enemyCreateRandomTime: {x: 1, y: 10}
+  <LevelContainer>k__BackingField: {fileID: 2453439240021605755, guid: 614b5b724e8db64469b765c1454369df, type: 3}
