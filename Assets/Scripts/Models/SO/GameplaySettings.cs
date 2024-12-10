@@ -1,6 +1,7 @@
 ﻿using Cinemachine;
 using Gameplay.AudioSystems;
 using Gameplay.Loots;
+using Gameplay.Players;
 using UnityEngine;
 
 namespace Assets.Scripts.Models.Games
@@ -10,6 +11,7 @@ namespace Assets.Scripts.Models.Games
     {
         [field: SerializeField] public Loot LootPrefab { get; private set; }
         [field: SerializeField] public CinemachineVirtualCamera CameraPrefab { get; private set; }
+        [field: SerializeField] public AbstractBullet Bullet { get; private set; }
 
     }
 }

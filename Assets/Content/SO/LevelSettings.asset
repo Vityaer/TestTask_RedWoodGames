@@ -26,7 +26,7 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: <EnemyContainers>k__BackingField
+    - Name: _enemyContainers
       Entry: 7
       Data: 0|System.Collections.Generic.List`1[[Models.Games.Enemies.EnemyLevelContainer,
         Assembly-CSharp]], mscorlib
@@ -84,6 +84,6 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  _startAmmo: 100
+  _startAmmo: 30
   _enemyCreateRandomTime: {x: 1, y: 10}
-  <LevelContainer>k__BackingField: {fileID: 2453439240021605755, guid: 614b5b724e8db64469b765c1454369df, type: 3}
+  _levelContainer: {fileID: 2346666784635567686, guid: 614b5b724e8db64469b765c1454369df, type: 3}

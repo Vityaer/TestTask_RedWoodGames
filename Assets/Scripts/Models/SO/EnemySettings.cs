@@ -5,8 +5,12 @@ namespace Models.Games
     [CreateAssetMenu(fileName = "EnemySettings", menuName = "ScriptableObjects/Game/Enemies/EnemySettings", order = 1)]
     public class EnemySettings : ScriptableObject
     {
-        [field: SerializeField] public float Health { get; private set; }
-        [field: SerializeField] public float Speed { get; private set; }
-        [field: SerializeField] public int AmmoBonus { get; private set; }
+        [SerializeField] private float _health;
+        [SerializeField] private float _speed;
+        [SerializeField] private int _ammoBonus;
+
+        public float Health => _health;
+        public float Speed => _speed;
+        public int AmmoBonus => _ammoBonus;
     }
 }

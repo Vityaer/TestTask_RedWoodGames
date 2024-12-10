@@ -49,7 +49,7 @@ namespace Gameplay.Services
         public void Initialize()
         {
             var bulletParent = new GameObject("BulletsParent").transform;
-            _bulletPool = new WrapperPool<AbstractBullet>(_storageService.PlayerSettings.Bullet, OnCreateBullet, bulletParent);
+            _bulletPool = new WrapperPool<AbstractBullet>(_storageService.GameplaySettings.Bullet, OnCreateBullet, bulletParent);
             _levelManager.OnStartGame.Subscribe(_ => Restart()).AddTo(_disposables);
             _levelManager.OnGameOver.Subscribe(_ => Restart()).AddTo(_disposables);
             Refresh();

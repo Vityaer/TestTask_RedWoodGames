@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Gameplay.Players;
+using UnityEngine;
 
 namespace Models.Games.Bullets
 {
@@ -7,6 +8,5 @@ namespace Models.Games.Bullets
     {
         [field: SerializeField] public float Damage { get; private set; }
         [field: SerializeField] public float FlySpeed { get; private set; }
-
     }
 }

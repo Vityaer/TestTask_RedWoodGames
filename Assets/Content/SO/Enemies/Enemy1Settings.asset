@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd7f3a7d229e1e4fa46164b9072494e, type: 3}
   m_Name: Enemy1Settings
   m_EditorClassIdentifier: 
-  <Health>k__BackingField: 10
-  <Speed>k__BackingField: 2
-  <AmmoBonus>k__BackingField: 2
+  _health: 10
+  _speed: 2
+  _ammoBonus: 2

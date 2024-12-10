@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <LootPrefab>k__BackingField: {fileID: 6978917684291040094, guid: 1af04d7d571a0d64faafabb44d37a405, type: 3}
   <CameraPrefab>k__BackingField: {fileID: 7784809653442555451, guid: b10469b204541d94c927571936a031c9, type: 3}
+  <Bullet>k__BackingField: {fileID: 2639365750879306394, guid: 8cf533031f8466a4fbec798e8796b9a4, type: 3}
