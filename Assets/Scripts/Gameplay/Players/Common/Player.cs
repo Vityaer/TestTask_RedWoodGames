@@ -1,15 +1,6 @@
 ﻿using Gameplay.Players.Movements;
-using Gameplay.Services.Common.Inputs;
 using Models.Games;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UniRx;
-using UnityEditor.Tilemaps;
 using UnityEngine;
-using Zenject;
 
 namespace Gameplay.Players
 {
